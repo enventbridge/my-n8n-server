@@ -8,5 +8,3 @@ ENV N8N_PROTOCOL=http
 ENV N8N_BASIC_AUTH_ACTIVE=true
 ENV N8N_BASIC_AUTH_USER=admin
 ENV N8N_BASIC_AUTH_PASSWORD=YourSecurePassword123!
-
-CMD ["tini", "--", "/usr/local/bin/docker-entrypoint.sh", "n8n"]
